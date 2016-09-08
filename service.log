@@ -1,0 +1,83 @@
+These Windows services are started:
+
+   Adobe Acrobat Update Service
+   Apache2.2
+   Application Experience
+   Application Layer Gateway Service
+   Arp Intelligent Protection Service
+   Avira Real-Time Protection
+   Avira Scheduler
+   Avira Web Protection
+   Background Intelligent Transfer Service
+   Base Filtering Engine
+   Canon Inkjet Printer/Scanner/Fax Extended Survey Program
+   Capture Device Service
+   CNG Key Isolation
+   COM+ Event System
+   Computer Browser
+   Cryptographic Services
+   DCOM Server Process Launcher
+   Desktop Window Manager Session Manager
+   DHCP Client
+   Diagnostic Policy Service
+   Diagnostic Service Host
+   Distributed Link Tracking Client
+   DNS Client
+   Extensible Authentication Protocol
+   Function Discovery Provider Host
+   Group Policy Client
+   IKE and AuthIP IPsec Keying Modules
+   Intel(R) Rapid Storage Technology
+   InterBase Guardian
+   InterBase Server
+   Internet Connection Sharing (ICS)
+   IP Helper
+   IPsec Policy Agent
+   Multimedia Class Scheduler
+   MySQL
+   Network Connections
+   Network List Service
+   Network Location Awareness
+   Network Store Interface Service
+   Offline Files
+   Plug and Play
+   Power
+   Print Spooler
+   Program Compatibility Assistant Service
+   Protexis Licensing V2
+   Remote Access Connection Manager
+   Remote Procedure Call (RPC)
+   RPC Endpoint Mapper
+   Secure Socket Tunneling Protocol Service
+   Security Accounts Manager
+   Security Center
+   Server
+   Shell Hardware Detection
+   SSDP Discovery
+   Superfetch
+   System Event Notification Service
+   Task Scheduler
+   TCP/IP NetBIOS Helper
+   Telephony
+   Themes
+   UPnP Device Host
+   User Profile Service
+   Windows Audio
+   Windows Audio Endpoint Builder
+   Windows Backup
+   Windows Connect Now - Config Registrar
+   Windows Defender
+   Windows Driver Foundation - User-mode Driver Framework
+   Windows Error Reporting Service
+   Windows Event Log
+   Windows Firewall
+   Windows Font Cache Service
+   Windows Image Acquisition (WIA)
+   Windows Management Instrumentation
+   Windows Search
+   Windows Update
+   WLAN AutoConfig
+   Workstation
+
+The command completed successfully.
+

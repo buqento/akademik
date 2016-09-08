@@ -1,0 +1,1168 @@
+2014/02/21 19:17:18 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\yiikursus\framework\zii\widgets\CMenu.php:263)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\zii\widgets\CMenu.php(159): CMenu->normalizeItems()
+#1 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(147): CMenu->init()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(172): KelasController->createWidget()
+#3 C:\xampp\htdocs\yiikursus\protected\views\layouts\main.php(52): KelasController->widget()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): KelasController->renderInternal()
+#6 C:\xampp\htdocs\yiikursus\framework\web\widgets\CContentDecorator.php(76): KelasController->renderFile()
+#7 C:\xampp\htdocs\yiikursus\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#8 C:\xampp\htdocs\yiikursus\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(206): CContentDecorator->run()
+#10 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(300): KelasController->endWidget()
+#11 C:\xampp\htdocs\yiikursus\protected\views\layouts\column2.php(22): KelasController->endContent()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#13 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): KelasController->renderInternal()
+#14 C:\xampp\htdocs\yiikursus\framework\web\CController.php(784): KelasController->renderFile()
+#15 C:\xampp\htdocs\yiikursus\protected\controllers\KelasController.php(56): KelasController->render()
+#16 unknown(0): KelasController->actionView()
+#17 C:\xampp\htdocs\yiikursus\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#18 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#19 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): KelasController->runAction()
+#21 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#23 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): KelasController->filterAccessControl()
+#24 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#25 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): KelasController->runActionWithFilters()
+#27 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): KelasController->run()
+#28 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#29 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=kelas/view&id=AP1
+in C:\xampp\htdocs\yiikursus\protected\views\layouts\main.php (52)
+in C:\xampp\htdocs\yiikursus\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\yiikursus\protected\controllers\KelasController.php (56)
+2014/02/21 19:18:34 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\yiikursus\framework\zii\widgets\CMenu.php:263)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\zii\widgets\CMenu.php(159): CMenu->normalizeItems()
+#1 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(147): CMenu->init()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(172): KelasController->createWidget()
+#3 C:\xampp\htdocs\yiikursus\protected\views\layouts\main.php(48): KelasController->widget()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): KelasController->renderInternal()
+#6 C:\xampp\htdocs\yiikursus\framework\web\widgets\CContentDecorator.php(76): KelasController->renderFile()
+#7 C:\xampp\htdocs\yiikursus\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#8 C:\xampp\htdocs\yiikursus\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(206): CContentDecorator->run()
+#10 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(300): KelasController->endWidget()
+#11 C:\xampp\htdocs\yiikursus\protected\views\layouts\column2.php(22): KelasController->endContent()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#13 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): KelasController->renderInternal()
+#14 C:\xampp\htdocs\yiikursus\framework\web\CController.php(784): KelasController->renderFile()
+#15 C:\xampp\htdocs\yiikursus\protected\controllers\KelasController.php(56): KelasController->render()
+#16 unknown(0): KelasController->actionView()
+#17 C:\xampp\htdocs\yiikursus\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#18 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#19 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): KelasController->runAction()
+#21 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#23 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): KelasController->filterAccessControl()
+#24 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#25 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): KelasController->runActionWithFilters()
+#27 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): KelasController->run()
+#28 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#29 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=kelas/view&id=AP1
+in C:\xampp\htdocs\yiikursus\protected\views\layouts\main.php (48)
+in C:\xampp\htdocs\yiikursus\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\yiikursus\protected\controllers\KelasController.php (56)
+2014/02/21 19:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "kursus/index".' in C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('kursus/index')
+#1 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiikursus/index.php?r=kursus/index
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=kelas/view&id=AP1
+---
+2014/02/21 19:35:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'kursus'' in C:\xampp\htdocs\yiikursus\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\yiikursus\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yiikursus\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(1595): CActiveRecord->getCommandBuilder()
+#7 C:\xampp\htdocs\yiikursus\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#8 C:\xampp\htdocs\yiikursus\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#10 C:\xampp\htdocs\yiikursus\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#11 C:\xampp\htdocs\yiikursus\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#12 C:\xampp\htdocs\yiikursus\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#13 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(147): CListView->init()
+#14 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#15 C:\xampp\htdocs\yiikursus\protected\views\kelas\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#16 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#17 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#18 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#19 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#20 C:\xampp\htdocs\yiikursus\protected\controllers\KelasController.php(128): CController->render('index', Array)
+#21 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): KelasController->actionIndex()
+#22 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#25 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#26 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#27 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#29 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('index')
+#31 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('kelas/index')
+#32 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#33 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#34 {main}
+REQUEST_URI=/yiikursus/index.php?r=kelas/index
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=siswa/index
+---
+2014/02/21 19:35:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "kursus/index".' in C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('kursus/index')
+#1 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiikursus/index.php?r=kursus/index
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=kelas/index
+---
+2014/02/21 19:58:29 [error] [exception.CException] exception 'CException' with message 'Property "Kursus.kdkelas" is not defined.' in C:\xampp\htdocs\yiikursus\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(145): CComponent->__get('kdkelas')
+#1 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('kdkelas')
+#2 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(1802): CHtml::resolveValue(Object(Kursus), 'kdkelas')
+#3 C:\xampp\htdocs\yiikursus\protected\views\kursus\_form.php(43): CHtml::activeDropDownList(Object(Kursus), 'kdkelas', Array, Array, Array)
+#4 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yiikursus\protected\views\kursus\create.php(18): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\yiikursus\protected\controllers\KursusController.php(79): CController->render('create', Array)
+#13 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): KursusController->actionCreate()
+#14 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('kursus/create')
+#24 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yiikursus/index.php?r=kursus/create
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=kursus/index
+---
+2014/02/21 22:03:28 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\yiikursus\protected\views\kelas\view.php:33)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): KelasController->renderFile()
+#1 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): KelasController->renderPartial()
+#2 C:\xampp\htdocs\yiikursus\protected\controllers\KelasController.php(56): KelasController->render()
+#3 unknown(0): KelasController->actionView()
+#4 C:\xampp\htdocs\yiikursus\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): KelasController->runAction()
+#8 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): KelasController->filterAccessControl()
+#11 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): KelasController->runActionWithFilters()
+#14 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): KelasController->run()
+#15 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=kelas/view&id=AP1
+in C:\xampp\htdocs\yiikursus\protected\views\kelas\view.php (33)
+in C:\xampp\htdocs\yiikursus\protected\controllers\KelasController.php (56)
+in C:\xampp\htdocs\yiikursus\index.php (13)
+2014/02/22 06:20:55 [error] [exception.CException] exception 'CException' with message 'Property "Kelas.kd_kelas" is not defined.' in C:\xampp\htdocs\yiikursus\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(145): CComponent->__get('kd_kelas')
+#1 C:\xampp\htdocs\yiikursus\protected\views\kelas\view.php(35): CActiveRecord->__get('kd_kelas')
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\yiikursus\protected\controllers\KelasController.php(56): CController->render('view', Array)
+#7 [internal function]: KelasController->actionView('AP1')
+#8 C:\xampp\htdocs\yiikursus\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(KelasController), Array)
+#9 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(KelasController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('view')
+#19 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('kelas/view')
+#20 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiikursus/index.php?r=kelas/view&id=AP1
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=kelas/index
+---
+2014/02/22 07:20:14 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.label" is not defined.' in C:\xampp\htdocs\yiikursus\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\CWidgetFactory.php(161): CComponent->__set('label', 'fjdksf')
+#1 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(KelasController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\yiikursus\protected\views\kelas\_form.php(54): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yiikursus\protected\views\kelas\create.php(18): CController->renderPartial('_form', Array)
+#8 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\xampp\htdocs\yiikursus\protected\controllers\KelasController.php(79): CController->render('create', Array)
+#13 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): KelasController->actionCreate()
+#14 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('kelas/create')
+#24 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yiikursus/index.php?r=kelas/create
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=kelas/index
+---
+2014/02/22 07:31:51 [error] [php] number_format() expects parameter 1 to be double, string given (C:\xampp\htdocs\yiikursus\protected\controllers\KelasController.php:73)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): KelasController->runAction()
+#2 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): KelasController->filterAccessControl()
+#5 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): KelasController->runActionWithFilters()
+#8 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): KelasController->run()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=kelas/create
+in C:\xampp\htdocs\yiikursus\protected\controllers\KelasController.php (73)
+in C:\xampp\htdocs\yiikursus\index.php (13)
+2014/02/22 09:07:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\yiikursus\protected\controllers\SiswaController.php:194
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\protected\controllers\SiswaController.php(55): SiswaController->loadModel('003')
+#1 [internal function]: SiswaController->actionView('003')
+#2 C:\xampp\htdocs\yiikursus\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiswaController), Array)
+#3 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiswaController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('siswa/view')
+#14 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiikursus/index.php?r=siswa/view&id=003
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=kelas/view&id=DG0000000001
+---
+2014/02/22 09:13:00 [error] [exception.CException] exception 'CException' with message 'Property "TbNavbar.icon" is not defined.' in C:\xampp\htdocs\yiikursus\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\CWidgetFactory.php(161): CComponent->__set('icon', 'pause')
+#1 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(KelasController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\yiikursus\themes\bootstrap\views\layouts\main.php(52): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yiikursus\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yiikursus\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="row...')
+#8 C:\xampp\htdocs\yiikursus\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="row...')
+#9 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\yiikursus\themes\bootstrap\views\layouts\column2.php(24): CBaseController->endContent()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yiikursus\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\yiikursus\protected\controllers\KelasController.php(56): CController->render('view', Array)
+#16 [internal function]: KelasController->actionView('AC-005')
+#17 C:\xampp\htdocs\yiikursus\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(KelasController), Array)
+#18 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(KelasController), Object(ReflectionMethod), Array)
+#19 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('view')
+#28 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('kelas/view')
+#29 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/yiikursus/index.php?r=kelas/view&id=AC-005
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=kelas/admin
+---
+2014/02/22 19:33:53 [error] [exception.CException] exception 'CException' with message 'Property "Pembayaran.jumlah" is not defined.' in C:\xampp\htdocs\yiikursus\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(145): CComponent->__get('jumlah')
+#1 C:\xampp\htdocs\yiikursus\framework\validators\CRequiredValidator.php(58): CActiveRecord->__get('jumlah')
+#2 C:\xampp\htdocs\yiikursus\framework\validators\CValidator.php(213): CRequiredValidator->validateAttribute(Object(Pembayaran), 'jumlah')
+#3 C:\xampp\htdocs\yiikursus\framework\base\CModel.php(159): CValidator->validate(Object(Pembayaran), NULL)
+#4 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#5 C:\xampp\htdocs\yiikursus\protected\controllers\PembayaranController.php(73): CActiveRecord->save()
+#6 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): PembayaranController->actionCreate()
+#7 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('pembayaran/crea...')
+#17 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiikursus/index.php?r=pembayaran/create
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=pembayaran/create
+---
+2014/02/22 19:37:01 [error] [exception.CException] exception 'CException' with message 'Property "Pembayaran.jumlah" is not defined.' in C:\xampp\htdocs\yiikursus\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(145): CComponent->__get('jumlah')
+#1 C:\xampp\htdocs\yiikursus\protected\views\pembayaran\_view.php(25): CActiveRecord->__get('jumlah')
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(130): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, false)
+#4 C:\xampp\htdocs\yiikursus\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\yiikursus\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 C:\xampp\htdocs\yiikursus\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 C:\xampp\htdocs\yiikursus\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 C:\xampp\htdocs\yiikursus\protected\views\pembayaran\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 C:\xampp\htdocs\yiikursus\protected\controllers\PembayaranController.php(128): CController->render('index', Array)
+#16 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): PembayaranController->actionIndex()
+#17 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('index')
+#26 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('pembayaran/inde...')
+#27 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yiikursus/index.php?r=pembayaran/index
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=pembayaran/view&id=20829
+---
+2014/02/22 19:37:22 [error] [exception.CException] exception 'CException' with message 'Property "Pembayaran.jumlah" is not defined.' in C:\xampp\htdocs\yiikursus\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(145): CComponent->__get('jumlah')
+#1 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('jumlah')
+#2 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Pembayaran), 'jumlah')
+#3 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Pembayaran), 'jumlah', Array)
+#4 C:\xampp\htdocs\yiikursus\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Pembayaran), 'jumlah', Array)
+#5 C:\xampp\htdocs\yiikursus\protected\views\pembayaran\_search.php(36): CActiveForm->textField(Object(Pembayaran), 'jumlah')
+#6 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiikursus\protected\views\pembayaran\admin.php(40): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\yiikursus\protected\controllers\PembayaranController.php(143): CController->render('admin', Array)
+#15 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): PembayaranController->actionAdmin()
+#16 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('pembayaran/admi...')
+#26 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/yiikursus/index.php?r=pembayaran/admin
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=pembayaran/index
+---
+2014/02/22 19:40:28 [error] [exception.CException] exception 'CException' with message 'Property "Pembayaran.jumlah" is not defined.' in C:\xampp\htdocs\yiikursus\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(145): CComponent->__get('jumlah')
+#1 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('jumlah')
+#2 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Pembayaran), 'jumlah')
+#3 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Pembayaran), 'jumlah', Array)
+#4 C:\xampp\htdocs\yiikursus\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Pembayaran), 'jumlah', Array)
+#5 C:\xampp\htdocs\yiikursus\protected\views\pembayaran\_search.php(36): CActiveForm->textField(Object(Pembayaran), 'jumlah')
+#6 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiikursus\protected\views\pembayaran\admin.php(35): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\yiikursus\protected\controllers\PembayaranController.php(143): CController->render('admin', Array)
+#15 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): PembayaranController->actionAdmin()
+#16 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('pembayaran/admi...')
+#26 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/yiikursus/index.php?r=pembayaran/admin
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=pembayaran/index
+---
+2014/02/22 19:40:35 [error] [exception.CException] exception 'CException' with message 'Property "Pembayaran.jumlah" is not defined.' in C:\xampp\htdocs\yiikursus\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(145): CComponent->__get('jumlah')
+#1 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('jumlah')
+#2 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Pembayaran), 'jumlah')
+#3 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Pembayaran), 'jumlah', Array)
+#4 C:\xampp\htdocs\yiikursus\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Pembayaran), 'jumlah', Array)
+#5 C:\xampp\htdocs\yiikursus\protected\views\pembayaran\_search.php(36): CActiveForm->textField(Object(Pembayaran), 'jumlah')
+#6 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiikursus\protected\views\pembayaran\admin.php(35): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\yiikursus\protected\controllers\PembayaranController.php(143): CController->render('admin', Array)
+#15 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): PembayaranController->actionAdmin()
+#16 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('pembayaran/admi...')
+#26 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/yiikursus/index.php?r=pembayaran/admin
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=pembayaran/index
+---
+2014/02/22 19:41:03 [error] [exception.CException] exception 'CException' with message 'Property "Pembayaran.jumlah" is not defined.' in C:\xampp\htdocs\yiikursus\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(145): CComponent->__get('jumlah')
+#1 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('jumlah')
+#2 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Pembayaran), 'jumlah')
+#3 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Pembayaran), 'jumlah', Array)
+#4 C:\xampp\htdocs\yiikursus\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Pembayaran), 'jumlah', Array)
+#5 C:\xampp\htdocs\yiikursus\protected\views\pembayaran\_search.php(36): CActiveForm->textField(Object(Pembayaran), 'jumlah')
+#6 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiikursus\protected\views\pembayaran\admin.php(35): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\yiikursus\protected\controllers\PembayaranController.php(143): CController->render('admin', Array)
+#15 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): PembayaranController->actionAdmin()
+#16 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('pembayaran/admi...')
+#26 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/yiikursus/index.php?r=pembayaran/admin
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=pembayaran/index
+---
+2014/02/22 19:41:04 [error] [exception.CException] exception 'CException' with message 'Property "Pembayaran.jumlah" is not defined.' in C:\xampp\htdocs\yiikursus\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(145): CComponent->__get('jumlah')
+#1 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('jumlah')
+#2 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Pembayaran), 'jumlah')
+#3 C:\xampp\htdocs\yiikursus\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Pembayaran), 'jumlah', Array)
+#4 C:\xampp\htdocs\yiikursus\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Pembayaran), 'jumlah', Array)
+#5 C:\xampp\htdocs\yiikursus\protected\views\pembayaran\_search.php(36): CActiveForm->textField(Object(Pembayaran), 'jumlah')
+#6 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yiikursus\protected\views\pembayaran\admin.php(35): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\yiikursus\protected\controllers\PembayaranController.php(143): CController->render('admin', Array)
+#15 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): PembayaranController->actionAdmin()
+#16 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('pembayaran/admi...')
+#26 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/yiikursus/index.php?r=pembayaran/admin
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=pembayaran/index
+---
+2014/02/22 22:02:57 [error] [php] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\xampp\htdocs\yiikursus\protected\modules\user\UserModule.php:210)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): RecoveryController->actionRecovery()
+#1 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): RecoveryController->runAction()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): RecoveryController->runActionWithFilters()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): RecoveryController->run()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=user/recovery/recovery
+in C:\xampp\htdocs\yiikursus\protected\modules\user\UserModule.php (210)
+in C:\xampp\htdocs\yiikursus\protected\modules\user\controllers\RecoveryController.php (56)
+in C:\xampp\htdocs\yiikursus\index.php (13)
+2014/02/24 08:11:06 [error] [php] include(Items.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yiikursus\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\protected\controllers\ReportController.php(9): spl_autoload_call()
+#1 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ReportController->actionIndex()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): ReportController->runAction()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): ReportController->runActionWithFilters()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): ReportController->run()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=report/index
+in C:\xampp\htdocs\yiikursus\protected\controllers\ReportController.php (9)
+in C:\xampp\htdocs\yiikursus\index.php (13)
+2014/02/24 08:43:31 [error] [php] include(Items.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yiikursus\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\protected\controllers\ReportController.php(9): spl_autoload_call()
+#1 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ReportController->actionIndex()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): ReportController->runAction()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): ReportController->runActionWithFilters()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): ReportController->run()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=report/index
+in C:\xampp\htdocs\yiikursus\protected\controllers\ReportController.php (9)
+in C:\xampp\htdocs\yiikursus\index.php (13)
+2014/02/24 08:44:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "report/index".' in C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('report/index')
+#1 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiikursus/index.php?r=report/index
+---
+2014/02/24 08:45:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "items/index".' in C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('items/index')
+#1 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiikursus/index.php?r=items/index
+---
+2014/02/24 08:47:21 [error] [exception.CException] exception 'CException' with message 'Paket and its behaviors do not have a method or closure named "getMyreport".' in C:\xampp\htdocs\yiikursus\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getMyreport', Array)
+#1 [internal function]: CActiveRecord->__call('getMyreport', Array)
+#2 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(9): Paket->getMyreport()
+#3 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('items/index')
+#9 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=items/index
+---
+2014/02/24 08:48:30 [error] [exception.CException] exception 'CException' with message 'Paket and its behaviors do not have a method or closure named "getMyreport".' in C:\xampp\htdocs\yiikursus\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getMyreport', Array)
+#1 [internal function]: CActiveRecord->__call('getMyreport', Array)
+#2 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(9): Paket->getMyreport()
+#3 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('items/index')
+#9 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=items/index
+---
+2014/02/24 08:57:04 [error] [exception.CException] exception 'CException' with message 'ItemsController cannot find the requested view "create".' in C:\xampp\htdocs\yiikursus\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(36): CController->render('create', Array)
+#2 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('items/index')
+#8 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiikursus/index.php?r=items/index
+---
+2014/02/24 09:12:13 [error] [php] require_once(C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf/tcpdf/tcpdf.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\YiiBase.php(196): import()
+#1 C:\xampp\htdocs\yiikursus\protected\views\items\index.php(20): createComponent()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): ItemsController->renderInternal()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): ItemsController->renderFile()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): ItemsController->renderPartial()
+#6 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(33): ItemsController->render()
+#7 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): ItemsController->runAction()
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): ItemsController->runActionWithFilters()
+#11 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): ItemsController->run()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=items/index
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\views\items\index.php (20)
+2014/02/24 09:13:33 [error] [php] require_once(C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf/tcpdf/tcpdf.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\YiiBase.php(196): import()
+#1 C:\xampp\htdocs\yiikursus\protected\views\items\index.php(20): createComponent()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): ItemsController->renderInternal()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): ItemsController->renderFile()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): ItemsController->renderPartial()
+#6 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(33): ItemsController->render()
+#7 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): ItemsController->runAction()
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): ItemsController->runActionWithFilters()
+#11 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): ItemsController->run()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=items/index
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\views\items\index.php (20)
+2014/02/24 09:14:12 [error] [php] require_once(C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf/tcpdf.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\YiiBase.php(196): import()
+#1 C:\xampp\htdocs\yiikursus\protected\views\items\index.php(20): createComponent()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): ItemsController->renderInternal()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): ItemsController->renderFile()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): ItemsController->renderPartial()
+#6 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(33): ItemsController->render()
+#7 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): ItemsController->runAction()
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): ItemsController->runActionWithFilters()
+#11 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): ItemsController->run()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=items/index
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\views\items\index.php (20)
+2014/02/24 09:14:27 [error] [php] require_once(C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\tcpdf.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\YiiBase.php(196): import()
+#1 C:\xampp\htdocs\yiikursus\protected\views\items\index.php(20): createComponent()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): ItemsController->renderInternal()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): ItemsController->renderFile()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): ItemsController->renderPartial()
+#6 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(33): ItemsController->render()
+#7 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): ItemsController->runAction()
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): ItemsController->runActionWithFilters()
+#11 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): ItemsController->run()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=items/index
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\views\items\index.php (20)
+2014/02/24 09:14:55 [error] [php] include(C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf/tcpdf/tcpdf.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\YiiBase.php(196): import()
+#1 C:\xampp\htdocs\yiikursus\protected\views\items\index.php(20): createComponent()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): ItemsController->renderInternal()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): ItemsController->renderFile()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): ItemsController->renderPartial()
+#6 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(33): ItemsController->render()
+#7 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): ItemsController->runAction()
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): ItemsController->runActionWithFilters()
+#11 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): ItemsController->run()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=items/index
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\views\items\index.php (20)
+2014/02/24 09:15:29 [error] [php] require_once(C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf/tcpdf/tcpdf.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\YiiBase.php(196): import()
+#1 C:\xampp\htdocs\yiikursus\protected\views\items\index.php(20): createComponent()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): ItemsController->renderInternal()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): ItemsController->renderFile()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): ItemsController->renderPartial()
+#6 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(33): ItemsController->render()
+#7 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): ItemsController->runAction()
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): ItemsController->runActionWithFilters()
+#11 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): ItemsController->run()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=items/index
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\views\items\index.php (20)
+2014/02/24 09:17:23 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.tcpdf.ETcPdf" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yiikursus\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 C:\xampp\htdocs\yiikursus\protected\views\items\index.php(20): YiiBase::createComponent('application.ext...', 'P', 'cm', 'A4', true, 'UTF-8')
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(33): CController->render('index')
+#7 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('items/index')
+#13 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiikursus/index.php?r=items/index
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=items/index
+---
+2014/02/24 09:17:44 [error] [php] require_once(C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf/tcpdf/tcpdf.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\YiiBase.php(196): import()
+#1 C:\xampp\htdocs\yiikursus\protected\views\items\index.php(20): createComponent()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): ItemsController->renderInternal()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): ItemsController->renderFile()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): ItemsController->renderPartial()
+#6 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(33): ItemsController->render()
+#7 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): ItemsController->runAction()
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): ItemsController->runActionWithFilters()
+#11 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): ItemsController->run()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=items/index
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\views\items\index.php (20)
+2014/02/24 09:18:04 [error] [php] require_once(C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf/tcpdf/ETcPdf.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\YiiBase.php(196): import()
+#1 C:\xampp\htdocs\yiikursus\protected\views\items\index.php(20): createComponent()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): ItemsController->renderInternal()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): ItemsController->renderFile()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): ItemsController->renderPartial()
+#6 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(33): ItemsController->render()
+#7 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): ItemsController->runAction()
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): ItemsController->runActionWithFilters()
+#11 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): ItemsController->run()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=items/index
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (38)
+in C:\xampp\htdocs\yiikursus\protected\views\items\index.php (20)
+2014/02/24 09:18:23 [error] [php] include(TCPDF.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yiikursus\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php(84): spl_autoload_call()
+#1 unknown(0): ETcPdf->__construct()
+#2 unknown(0): ReflectionClass->newInstance()
+#3 C:\xampp\htdocs\yiikursus\framework\YiiBase.php(213): call_user_func_array()
+#4 C:\xampp\htdocs\yiikursus\protected\views\items\index.php(20): createComponent()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): ItemsController->renderInternal()
+#7 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): ItemsController->renderFile()
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): ItemsController->renderPartial()
+#9 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(33): ItemsController->render()
+#10 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#11 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): ItemsController->runAction()
+#13 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): ItemsController->runActionWithFilters()
+#14 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): ItemsController->run()
+#15 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=items/index
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (84)
+in C:\xampp\htdocs\yiikursus\protected\views\items\index.php (20)
+in C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php (33)
+2014/02/24 09:35:05 [error] [php] include(TCPDF.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yiikursus\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php(84): spl_autoload_call()
+#1 unknown(0): ETcPdf->__construct()
+#2 unknown(0): ReflectionClass->newInstance()
+#3 C:\xampp\htdocs\yiikursus\framework\YiiBase.php(213): call_user_func_array()
+#4 C:\xampp\htdocs\yiikursus\protected\views\items\index.php(20): createComponent()
+#5 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): ItemsController->renderInternal()
+#7 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): ItemsController->renderFile()
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): ItemsController->renderPartial()
+#9 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(33): ItemsController->render()
+#10 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#11 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): ItemsController->runAction()
+#13 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): ItemsController->runActionWithFilters()
+#14 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): ItemsController->run()
+#15 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=items/index
+in C:\xampp\htdocs\yiikursus\protected\extensions\tcpdf\ETcPdf.php (84)
+in C:\xampp\htdocs\yiikursus\protected\views\items\index.php (20)
+in C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php (33)
+2014/02/24 09:36:05 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.tcpdf.ETcPdf" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yiikursus\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 C:\xampp\htdocs\yiikursus\protected\views\items\index.php(20): YiiBase::createComponent('application.ext...', 'P', 'cm', 'A4', true, 'UTF-8')
+#2 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yiikursus\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yiikursus\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\xampp\htdocs\yiikursus\protected\controllers\ItemsController.php(33): CController->render('index')
+#7 C:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): ItemsController->actionIndex()
+#8 C:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yiikursus\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('index')
+#12 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('items/index')
+#13 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiikursus/index.php?r=items/index
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=items/index
+---
+2014/02/24 10:15:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('report')
+#8 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('siswa/report')
+#9 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=siswa/report
+---
+2014/02/24 13:09:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('print')
+#8 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('siswa/print')
+#9 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=siswa/print
+---
+2014/02/24 13:48:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('print')
+#8 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('siswa/print')
+#9 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=siswa/print
+---
+2014/02/24 13:48:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('print')
+#8 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('siswa/print')
+#9 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=siswa/print
+---
+2014/02/24 13:48:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('print')
+#8 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('siswa/print')
+#9 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=siswa/print
+---
+2014/02/24 13:49:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('print')
+#8 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('siswa/print')
+#9 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=siswa/print
+---
+2014/02/24 13:49:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('print')
+#8 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('siswa/print')
+#9 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=siswa/print
+---
+2014/02/25 07:51:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('paket/admin')
+#9 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=paket/admin
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=paket/index
+---
+2014/02/25 07:51:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yiikursus\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('paket/admin')
+#9 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=paket/admin
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=paket/create
+---
+2014/03/03 18:39:07 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php:104)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): SiswaController->runActionWithFilters()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): SiswaController->run()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=siswa/create
+in C:\xampp\htdocs\yiikursus\index.php (13)
+2014/03/03 18:41:09 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\yiikursus\framework\web\auth\CAccessControlFilter.php:104)
+Stack trace:
+#0 C:\xampp\htdocs\yiikursus\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#1 C:\xampp\htdocs\yiikursus\framework\web\CController.php(291): CFilterChain->run()
+#2 C:\xampp\htdocs\yiikursus\framework\web\CController.php(265): KelasController->runActionWithFilters()
+#3 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): KelasController->run()
+#4 C:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiikursus\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiikursus/index.php?r=kelas/index
+in C:\xampp\htdocs\yiikursus\index.php (13)
+2016/09/08 04:53:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'jayanegara'' in F:\xampp\htdocs\yiikursus\framework\db\CDbConnection.php:382
+Stack trace:
+#0 F:\xampp\htdocs\yiikursus\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 F:\xampp\htdocs\yiikursus\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 F:\xampp\htdocs\yiikursus\framework\base\CModule.php(387): CDbConnection->init()
+#3 F:\xampp\htdocs\yiikursus\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 F:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 F:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(2361): CActiveRecord->getDbConnection()
+#6 F:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(RegistrationForm))
+#7 F:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 F:\xampp\htdocs\yiikursus\protected\modules\user\controllers\RegistrationController.php(25): CActiveRecord->__construct()
+#9 F:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): RegistrationController->actionRegistration()
+#10 F:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 F:\xampp\htdocs\yiikursus\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 F:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 F:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('')
+#14 F:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('user/registrati...')
+#15 F:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 F:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yiikursus/index.php?r=user/registration
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=user/login
+---
+2016/09/08 04:54:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1932 Table 'jayanegara.tbl_users' doesn't exist in engine. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_users`.
+in F:\xampp\htdocs\yiikursus\protected\modules\user\controllers\RegistrationController.php (25)
+in F:\xampp\htdocs\yiikursus\index.php (13)
+2016/09/08 04:54:27 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_users" for active record class "RegistrationForm" cannot be found in the database.' in F:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 F:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(RegistrationForm))
+#1 F:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 F:\xampp\htdocs\yiikursus\protected\modules\user\controllers\RegistrationController.php(25): CActiveRecord->__construct()
+#3 F:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): RegistrationController->actionRegistration()
+#4 F:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 F:\xampp\htdocs\yiikursus\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 F:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('')
+#8 F:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('user/registrati...')
+#9 F:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=user/registration
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=user/login
+---
+2016/09/08 04:54:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1932 Table 'jayanegara.tbl_users' doesn't exist in engine. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_users`.
+in F:\xampp\htdocs\yiikursus\protected\modules\user\controllers\RegistrationController.php (25)
+in F:\xampp\htdocs\yiikursus\index.php (13)
+2016/09/08 04:54:28 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_users" for active record class "RegistrationForm" cannot be found in the database.' in F:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 F:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(RegistrationForm))
+#1 F:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 F:\xampp\htdocs\yiikursus\protected\modules\user\controllers\RegistrationController.php(25): CActiveRecord->__construct()
+#3 F:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): RegistrationController->actionRegistration()
+#4 F:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 F:\xampp\htdocs\yiikursus\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 F:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('')
+#8 F:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('user/registrati...')
+#9 F:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=user/registration
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=user/login
+---
+2016/09/08 04:54:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1932 Table 'jayanegara.tbl_users' doesn't exist in engine. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_users`.
+in F:\xampp\htdocs\yiikursus\protected\modules\user\controllers\RegistrationController.php (25)
+in F:\xampp\htdocs\yiikursus\index.php (13)
+2016/09/08 04:54:36 [error] [exception.CDbException] exception 'CDbException' with message 'The table "tbl_users" for active record class "RegistrationForm" cannot be found in the database.' in F:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 F:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(RegistrationForm))
+#1 F:\xampp\htdocs\yiikursus\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 F:\xampp\htdocs\yiikursus\protected\modules\user\controllers\RegistrationController.php(25): CActiveRecord->__construct()
+#3 F:\xampp\htdocs\yiikursus\framework\web\actions\CInlineAction.php(49): RegistrationController->actionRegistration()
+#4 F:\xampp\htdocs\yiikursus\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 F:\xampp\htdocs\yiikursus\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 F:\xampp\htdocs\yiikursus\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(282): CController->run('')
+#8 F:\xampp\htdocs\yiikursus\framework\web\CWebApplication.php(141): CWebApplication->runController('user/registrati...')
+#9 F:\xampp\htdocs\yiikursus\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\xampp\htdocs\yiikursus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiikursus/index.php?r=user/registration
+HTTP_REFERER=http://localhost/yiikursus/index.php?r=kelas/index
+---
