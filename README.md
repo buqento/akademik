@@ -1,1 +1,2 @@
-# kursus
+# Akademik
+Informasi akademik kursus komputer
